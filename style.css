@@ -1,0 +1,54 @@
+/* Variables CSS para personalizar los colores */
+:root {
+    --color-principal: #4B3828;
+    --color-texto-principal: #333;
+    --color-fondo: #fff;
+    --color-boton: #4B3828;
+    --color-boton-hover: #333;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto-principal);
+    text-align: center;
+  }
+  
+  /* Contenedor principal */
+  .contenedor {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejor visibilidad sobre la imagen */
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Textareas */
+  textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  /* Botones */
+  button {
+    background-color: var(--color-boton);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--color-boton-hover);
+  }
+  
+  /* Estilo para el texto de "Ningún mensaje fue encontrado" */
+  .mensaje-vacio {
+    color: var(--color-texto-principal);
+    font-style: italic;
+  }
